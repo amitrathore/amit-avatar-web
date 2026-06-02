@@ -84,10 +84,11 @@ nav {
   border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 .logo {
-  display: flex; align-items: center; gap: 10px;
-  font-family: var(--serif); font-size: 22px; letter-spacing: -0.01em;
+  display: flex; align-items: center; gap: 14px;
+  font-family: var(--serif); font-size: 30px; letter-spacing: -0.01em;
+  text-decoration: none; color: var(--paper);
 }
-.logo img { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; border: 2px solid var(--paper); }
+.logo img { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; border: 2.5px solid var(--paper); box-shadow: 0 6px 20px rgba(255,93,174,0.35); }
 .logo b { font-weight: 400; }
 .logo i { font-style: italic; color: var(--pink); }
 
@@ -174,7 +175,7 @@ section { padding: 80px 28px; max-width: 1280px; margin: 0 auto; position: relat
 .cta svg { width: 18px; height: 18px; }
 
 .portrait-wrap {
-  position: relative; aspect-ratio: 1; width: 100%; max-width: 320px;
+  position: relative; aspect-ratio: 1; width: 100%; max-width: 200px;
   margin-left: auto;
 }
 .portrait-wrap::before {
@@ -305,12 +306,12 @@ section { padding: 80px 28px; max-width: 1280px; margin: 0 auto; position: relat
 
 /* Avatar CEO section */
 .avatar-ceo {
-  display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 80px;
+  display: grid; grid-template-columns: 0.6fr 1.4fr; gap: 80px;
   align-items: center;
 }
 .ceo-img {
-  position: relative; aspect-ratio: 4/5;
-  border-radius: 28px; overflow: hidden;
+  position: relative; aspect-ratio: 1; max-width: 240px;
+  border-radius: 50%; overflow: hidden;
   box-shadow: 0 30px 80px rgba(0,0,0,0.5);
 }
 .ceo-img img { width: 100%; height: 100%; object-fit: cover; }
@@ -380,7 +381,7 @@ footer {
   nav { padding: 16px 20px; }
   .hero { padding-top: 30px; min-height: auto; }
   .hero-row { grid-template-columns: 1fr; gap: 50px; }
-  .portrait-wrap { margin: 0 auto; max-width: 260px; }
+  .portrait-wrap { margin: 0 auto; max-width: 170px; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .avatar-ceo { grid-template-columns: 1fr; gap: 40px; }
   .apply { padding: 80px 22px; }
