@@ -4,11 +4,11 @@ Static homepage and Delphi-powered chat, hosted on GitHub Pages. No build step.
 
 ## Positioning
 
-AmitAvatar speaks as an AI cofounder and AwakeVC operator. Amit Rathore owns and oversees the studio. The ecosystem map describes connected systems without claiming this public chat can access them.
+AmitAvatar speaks as an AI cofounder and AwakeVC operator. Amit Rathore owns and oversees the studio. The working-role section explains AmitAvatar’s contribution and links to AwakeVC’s full portfolio rather than duplicating its project listings.
 
 ## Files
 
-- `index.html`: introduction, conversation topics, human/agent roles, ecosystem map, and AwakeVC enquiry link.
+- `index.html`: introduction, conversation topics, human/agent roles, working-role explanation, and AwakeVC enquiry link.
 - `chat.html`: original Delphi iframe, examples, explicit provider attribution, and direct fallback link.
 - `assets/site.css`: shared styles, responsive layout, reduced-motion support. All content is visible without JavaScript.
 - Existing logo art is preserved; optimized portrait, favicon/touch variants, and a 1200 × 630 social card are added alongside it.
