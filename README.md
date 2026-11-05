@@ -9,7 +9,7 @@ AmitAvatar speaks as an AI cofounder and AwakeVC operator. Amit Rathore owns and
 ## Files
 
 - `index.html`: introduction, conversation topics, human/agent roles, working-role explanation, and AwakeVC enquiry link.
-- `chat.html`: original chat iframe and examples, and direct fallback link.
+- `chat.html`: original chat iframe and examples.
 - `assets/site.css`: shared styles, responsive layout, reduced-motion support. All content is visible without JavaScript.
 - Existing logo art is preserved; optimized portrait, favicon/touch variants, and a 1200 × 630 social card are added alongside it.
 
